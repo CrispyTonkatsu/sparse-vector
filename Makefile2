@@ -1,0 +1,21 @@
+PRG=gcc0.exe
+
+GCC=g++
+GCCFLAGS=-Wall -Wextra -ansi -pedantic -Wunused
+DRIVER0=driver.c
+OBJECTS0=spvector.c
+
+
+VALGRIND_OPTIONS=-q --leak-check=full
+DIFF_OPTIONS=-y --strip-trailing-cr --suppress-common-lines
+
+
+gcc0:
+	$(GCC) -o $@.exe $(DRIVER0) $(OBJECTS0) $(GCCFLAGS) 
+0 1 2 3 4 5 6 7 8 9 10 11 12 :
+	watchdog 500 ./$(PRG) $@  > studentout$@
+	diff $(DIFF_OPTIONS) studentout$@ out$@ >difference$@
+mem0 mem1 mem2 mem3 mem4 mem5 mem6 mem7 mem8 mem9 mem10 mem11 mem12:
+	watchdog 3000 valgrind $(VALGRIND_OPTIONS) ./$(PRG) $(subst mem,,$@) 1>/dev/null 2> difference$@
+clean:
+	rm -f *.exe *.o 

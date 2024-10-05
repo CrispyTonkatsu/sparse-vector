@@ -1,0 +1,4 @@
+ToolSet: 1.0 (local)Ninja: 1.12.0@/nix/store/32l52ki1bwaw5k0zh975kfi4nkmdwkh8-clion-2024.2.0.1/clion/bin/ninja/linux/x64/ninja
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=/nix/store/32l52ki1bwaw5k0zh975kfi4nkmdwkh8-clion-2024.2.0.1/clion/bin/ninja/linux/x64/ninja

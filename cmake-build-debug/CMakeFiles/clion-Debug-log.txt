@@ -1,0 +1,4 @@
+/nix/store/32l52ki1bwaw5k0zh975kfi4nkmdwkh8-clion-2024.2.0.1/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/store/32l52ki1bwaw5k0zh975kfi4nkmdwkh8-clion-2024.2.0.1/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/erina/Digipen/CS225/sparsevector-files -B /home/erina/Digipen/CS225/sparsevector-files/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/erina/Digipen/CS225/sparsevector-files/cmake-build-debug

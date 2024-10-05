@@ -1,0 +1,3 @@
+/home/erina/Digipen/CS225/sparsevector-files/cmake-build-debug/CMakeFiles/driver_c.dir
+/home/erina/Digipen/CS225/sparsevector-files/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/erina/Digipen/CS225/sparsevector-files/cmake-build-debug/CMakeFiles/rebuild_cache.dir

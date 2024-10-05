@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/erina/Digipen/CS225/sparsevector-files/build",
+  "command": "/nix/store/jc0cfciff4ysx5cc91z7kq3fain254kj-gcc-wrapper-8.5.0/bin/gcc -isystem /nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/include -isystem /nix/store/wdchdh5s998z5q3fcayvpwqr6gi80alx-valgrind-3.23.0-dev/include -isystem /nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include -isystem /nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/include -isystem /nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include-fixed -isystem /nix/store/wlavaybjbzgllhq11lib6qgr7rm8imgp-glibc-2.39-52-dev/include -Wall -Wextra -O2 -o CMakeFiles/driver_c.dir/driver.c.o -c /home/erina/Digipen/CS225/sparsevector-files/driver.c",
+  "file": "/home/erina/Digipen/CS225/sparsevector-files/driver.c",
+  "output": "CMakeFiles/driver_c.dir/driver.c.o"
+},
+{
+  "directory": "/home/erina/Digipen/CS225/sparsevector-files/build",
+  "command": "/nix/store/jc0cfciff4ysx5cc91z7kq3fain254kj-gcc-wrapper-8.5.0/bin/gcc -isystem /nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/include -isystem /nix/store/wdchdh5s998z5q3fcayvpwqr6gi80alx-valgrind-3.23.0-dev/include -isystem /nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include -isystem /nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/include -isystem /nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include-fixed -isystem /nix/store/wlavaybjbzgllhq11lib6qgr7rm8imgp-glibc-2.39-52-dev/include -Wall -Wextra -O2 -o CMakeFiles/driver_c.dir/spvector.c.o -c /home/erina/Digipen/CS225/sparsevector-files/spvector.c",
+  "file": "/home/erina/Digipen/CS225/sparsevector-files/spvector.c",
+  "output": "CMakeFiles/driver_c.dir/spvector.c.o"
+}
+]
